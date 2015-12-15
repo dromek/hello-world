@@ -1,0 +1,48 @@
+object FormAbout: TFormAbout
+  Left = 565
+  Height = 418
+  Top = 678
+  Width = 573
+  BorderStyle = bsDialog
+  Caption = 'O programie'
+  ClientHeight = 418
+  ClientWidth = 573
+  Font.Name = 'Segoe UI'
+  LCLVersion = '1.4.2.0'
+  object Label2: TLabel
+    Left = 64
+    Height = 40
+    Top = 24
+    Width = 334
+    Caption = 'Generator sum kontrolnych'
+    Font.Height = -29
+    Font.Name = 'Segoe UI Light'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 88
+    Height = 21
+    Top = 72
+    Width = 208
+    Caption = 'Wersja 1.00 z dnia 06.08.2015'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 48
+    Height = 168
+    Top = 120
+    Width = 363
+    Caption = 'Copyright © 2015 Damian Romek'#13#10#13#10'Kontakt:'#13#10'dromek@windowslive.com'#13#10#13#10'DCPcrypt Cryptographic Component Library v2.0.4.1'#13#10'Copyright (c) 1999-2003 David Barton'#13#10'http://www.cityinthesky.co.uk/'
+    ParentColor = False
+  end
+  object Button1: TButton
+    Left = 160
+    Height = 38
+    Top = 328
+    Width = 165
+    Caption = 'OK'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+end
