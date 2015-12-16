@@ -29,9 +29,9 @@ object FormAbout: TFormAbout
     ParentColor = False
   end
   object Label4: TLabel
-    Left = 176
+    Left = 112
     Height = 168
-    Top = 112
+    Top = 120
     Width = 363
     Caption = 'Copyright © 2015 Damian Romek'#13#10#13#10'Kontakt:'#13#10'dromek@windowslive.com'#13#10#13#10'DCPcrypt Cryptographic Component Library v2.0.4.1'#13#10'Copyright (c) 1999-2003 David Barton'#13#10'http://www.cityinthesky.co.uk/'
     Color = clHighlightText
@@ -46,5 +46,9 @@ object FormAbout: TFormAbout
     Caption = 'OK'
     OnClick = Button1Click
     TabOrder = 0
+  end
+  object PopupMenu1: TPopupMenu
+    left = 176
+    top = 116
   end
 end

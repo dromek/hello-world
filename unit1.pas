@@ -5,7 +5,7 @@ unit Unit1;
 interface
 
 uses
-  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls,
+  SysUtils, Forms, Graphics, StdCtrls,
   ECLink, DCPmd5, DCPsha256, DCPsha512, md5;
 
 type

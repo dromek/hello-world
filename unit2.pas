@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls,
-  ExtCtrls;
+  ExtCtrls, Menus;
 
 type
 
@@ -17,6 +17,7 @@ type
     Label2: TLabel;
     Label3: TLabel;
     Label4: TLabel;
+    PopupMenu1: TPopupMenu;
     procedure Button1Click(Sender: TObject);
   private
     { private declarations }
