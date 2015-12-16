@@ -1,12 +1,12 @@
 object FormAbout: TFormAbout
   Left = 565
-  Height = 321
+  Height = 418
   Top = 678
-  Width = 468
+  Width = 573
   BorderStyle = bsDialog
   Caption = 'O programie'
-  ClientHeight = 321
-  ClientWidth = 468
+  ClientHeight = 418
+  ClientWidth = 573
   Font.Name = 'Segoe UI'
   LCLVersion = '1.4.2.0'
   object Label2: TLabel
@@ -29,17 +29,19 @@ object FormAbout: TFormAbout
     ParentColor = False
   end
   object Label4: TLabel
-    Left = 88
-    Height = 84
-    Top = 152
-    Width = 238
-    Caption = 'Copyright © 2015 Damian Romek'#13#10#13#10'Kontakt:'#13#10'dromek@windowslive.com'
+    Left = 176
+    Height = 168
+    Top = 112
+    Width = 363
+    Caption = 'Copyright © 2015 Damian Romek'#13#10#13#10'Kontakt:'#13#10'dromek@windowslive.com'#13#10#13#10'DCPcrypt Cryptographic Component Library v2.0.4.1'#13#10'Copyright (c) 1999-2003 David Barton'#13#10'http://www.cityinthesky.co.uk/'
+    Color = clHighlightText
     ParentColor = False
+    Transparent = False
   end
   object Button1: TButton
-    Left = 152
+    Left = 160
     Height = 38
-    Top = 264
+    Top = 328
     Width = 165
     Caption = 'OK'
     OnClick = Button1Click

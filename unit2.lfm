@@ -29,12 +29,14 @@ object FormAbout: TFormAbout
     ParentColor = False
   end
   object Label4: TLabel
-    Left = 48
+    Left = 176
     Height = 168
-    Top = 120
+    Top = 112
     Width = 363
     Caption = 'Copyright © 2015 Damian Romek'#13#10#13#10'Kontakt:'#13#10'dromek@windowslive.com'#13#10#13#10'DCPcrypt Cryptographic Component Library v2.0.4.1'#13#10'Copyright (c) 1999-2003 David Barton'#13#10'http://www.cityinthesky.co.uk/'
+    Color = clHighlightText
     ParentColor = False
+    Transparent = False
   end
   object Button1: TButton
     Left = 160
